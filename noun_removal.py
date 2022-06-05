@@ -1,5 +1,7 @@
 import spacy, string, random
 
+#ID4 Perturbation: This code removes noun phrases (including compound nouns) which are not named entities or subjects. 
+
 import spacy.cli
 
 spacy.cli.download("en_core_web_lg")
